@@ -1,0 +1,49 @@
+    .heading {
+        background-color: red;
+        text-align: center;
+        font-size: 30px;
+        color: white;
+        font-family: myfont;
+        text-shadow: 5px 5px 3px black;
+    }
+
+        @font-face {
+            font-family: myfont;
+            src: url("./assets/BarionetteScript_PERSONAL_USE_ONLY.otf");
+        }
+    
+
+        /* bakbak font */
+        .bakbak-one-regular {
+  font-family: "Bakbak One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+    .lefcolhead{
+        color: red;
+        width: 80%;
+        float: left;
+        font-size: 20px;
+        text-shadow: 5px 5px 5px wheat;
+        font-family: "Bakbak One", sans-serif;
+    }
+
+    .lefcolcon{
+        color: black;
+        width: 75%;
+    }
+
+    .rightcol{
+        width: 20%;
+        float: right;
+       
+    }
+
+    .button{
+        color: white;
+        background-color: red;
+        margin: 10px;
+        float:center;
+    }
