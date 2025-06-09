@@ -1,0 +1,176 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  .bgimg {
+    background-image: url("bgpics.jpg");
+    height: 710px;
+    width: 1500px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+  
+  .outer-border {
+    border: 5px solid white;
+    min-height: 100vh;
+    padding: 40px;
+  
+  }
+  
+  /* Header Styles */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 70px;
+    background: transparent;
+  }
+  
+  .logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: orange;
+  }
+  
+  .nav {
+    background-color: transparent;
+  }
+  .nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 30px;
+    font-weight: bold;
+    background-color: transparent;
+  }
+  
+
+  
+
+  .search-bar input {
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+  }
+  
+  .search-bar button {
+    padding: 6px 10px;
+    background: orange;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 5px;
+  }
+  
+  /* Main content */
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 70px;
+    flex-wrap: wrap;
+  }
+  
+  .info {
+    max-width: 60%;
+    color: white;
+  }
+  
+  .info h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .info .highlight {
+    color: orange;
+  }
+  
+  .info p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  .join-btn {
+    padding: 10px 40px;
+    background: orange;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  /* Login Box */
+  .login-box {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+  }
+  
+  .login-box h2 {
+    background: white;
+    color: orange;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .login-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid orange;
+    background: transparent;
+    color: white;
+    outline: none;
+  }
+  
+  .login-btn {
+    width: 100%;
+    padding: 10px;
+    background: orange;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 15px 0;
+  }
+  
+  .signup {
+    text-align: center;
+    color: white;
+  }
+
+  
+  .signup a {
+    color: orange;
+    text-decoration: none;
+  }
+  
+  .social-text {
+    text-align: center;
+    margin: 10px 0;
+    color: white;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    color: white;
+    text-decoration: none;
+  }
+  
