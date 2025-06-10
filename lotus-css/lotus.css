@@ -1,0 +1,62 @@
+* {
+    display: inline-block;
+}
+
+.hdandi {
+    height: 210px;
+    width: 15px;
+    background-color: greenyellow;
+    transform: translate(500px, 250px);
+}
+
+.bdandi {
+    width: 100px;
+    height: 10px;
+    background-color: greenyellow;
+    transform: translate(440px, 250px);
+}
+
+.hleaf1 {
+    background-color: greenyellow;
+    width: 100px;
+    height: 100px;
+    border-radius: 0px 90px;
+    transform: translate(270px, 180px) rotate(-20deg);
+}
+
+.hleaf2 {
+    background-color: greenyellow;
+    width: 100px;
+    height: 100px;
+    border-radius: 0px 90px;
+    transform: translate(300px, 230px) rotate(300deg);
+}
+
+.pleaf {
+    background-color: #ff00ff;
+    width: 120px;
+    height: 100px;
+    border-radius: 0px 90px;
+}
+
+.pl1 {
+    transform: translate(45px, 80px) rotate(160deg);
+}
+
+.pl2 {
+    transform: translate(65px, 80px) rotate(125deg);
+}
+
+.pl3 {
+    transform: translate(-185px, 50px) rotate(10deg);
+    background-color: #ff6cff;
+}
+
+.pl4 {
+    transform: translate(-205px, 50px) rotate(90deg);
+    background-color: #ff6cff;
+}
+
+.pl5 {
+    transform: translate(-377px, 30px) rotate(52deg);
+}
