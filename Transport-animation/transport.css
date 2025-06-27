@@ -1,0 +1,81 @@
+.track-img {
+  background-image: url('./assets/tracks.jpg');
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.vaahan img {
+  width: 300px;
+  height: 300px;
+}
+
+.car {
+  position: absolute;
+  top: 310px;
+  left: 50px;
+  animation-timing-function: linear;
+  animation: anime1 3s 1s infinite;
+}
+
+.cycle {
+  position: absolute;
+  top: 340px;
+  left: 50px;
+  animation-timing-function: ease-out;
+  animation: anime1 4s 3s infinite;
+}
+
+.bike {
+  position: absolute;
+  top: 400px;
+  left: 50px;
+  animation-timing-function: ease;
+  animation: anime1 4s 1s infinite;
+}
+
+.truck {
+  position: absolute;
+  top: 420px;
+  left: 50px;
+  animation-timing-function: ease-in-out;
+  animation: anime1 4s 2s infinite;
+}
+
+.plane {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 20px;
+  left: 50px;
+  animation-timing-function: ease-in-out;
+  animation: anime1 2s 0s infinite;
+
+}
+
+.plane img {
+  width: 200px;
+  height: 200px;
+}
+
+
+@keyframes anime1 {
+  0% {
+    transform: translateX(0) rotateY(0);
+  }
+  45% {
+    transform: translateX(1000px) rotateY(0); /* Moves right, facing forward */
+  }
+  50% {
+    transform: translateX(1150px) rotateY(180deg); /* Flips at far right */
+  }
+
+  95% {
+    transform: translateX(100px) rotateY(180deg); /* Gradually un-flips while moving left */
+  }
+    100% {
+    transform: translateX(0) rotateY(0); /* Fully forward at start */
+  }
+}
