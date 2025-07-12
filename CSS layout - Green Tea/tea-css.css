@@ -1,0 +1,74 @@
+.one{
+    background-image: url(./tea-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 720px;
+}
+
+.row {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 80px;
+    font-size: large;
+}
+
+
+
+
+.col-img{
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+}
+.col-img img {
+    background-size: contain;
+    width: 100px;
+    height: 100px;
+    
+    float: left;
+}
+
+.r-con {
+    color: aliceblue;
+    float: right;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 80px;
+    font-size: 60px;
+    margin-bottom: 0%; 
+}
+
+
+
+.r-left {
+    padding: 60px;
+    width: 40%;
+    float: inline-start;
+}
+
+.r-right {
+   position: relative;
+    width: 40%;
+    float: right;
+   
+}
+
+.video-frame {
+     position: absolute;
+    top: 210px;   
+    left: 125px;  
+    width: 150px;
+    height: 200px;
+   
+    border: none;
+    transform: rotate(4deg);
+}
+
+.about_font {
+   
+  font-family: "Indie Flower", cursive;
+  font-weight: 800;
+  font-style: oblique;
+}
+
+.leaf{
+    width: 100%;
+}
