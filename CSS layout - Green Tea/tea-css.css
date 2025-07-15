@@ -11,9 +11,6 @@
     font-size: large;
 }
 
-
-
-
 .col-img{
     background-size: contain;
     width: 100px;
@@ -67,8 +64,4 @@
   font-family: "Indie Flower", cursive;
   font-weight: 800;
   font-style: oblique;
-}
-
-.leaf{
-    width: 100%;
 }
